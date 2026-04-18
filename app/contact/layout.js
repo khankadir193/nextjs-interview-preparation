@@ -1,11 +1,12 @@
-const ContactLayout = ({children})=>{
+
+
+const ContactLayout = ({ children }) => {
     return (
-        <html>
-            <body>
-                <p>contact nested layout..</p>
-                {children}
-            </body>
-        </html>
+        <section>
+            <p>contact nested layout..</p>
+            {children}
+        </section>
+
     )
 };
 

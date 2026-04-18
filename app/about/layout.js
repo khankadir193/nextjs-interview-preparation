@@ -1,13 +1,11 @@
 const AboutLayout = ({ children }) => {
 
   return (
-    <html>
-      <body>
+      <section>
         <p>About-Nexted Layout...</p>
         {children}
-      </body>
-    </html>
-  )
+      </section>
+    )
 };
 
 export default AboutLayout;

@@ -3,9 +3,9 @@ const RootLaout = ({ children }) => {
   return (
     <html>
       <body>
-      <p>Navigation-Header</p>
+        <p>Navigation-Header</p>
         {children}
-      <p>Footer</p>
+        <p>Footer</p>
       </body>
     </html>
   )
